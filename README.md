@@ -17,3 +17,8 @@ _not_ end with a punctuation character.
 
 If the changes are more involved or require a justification a more detailed
 message follows starting at line three.
+
+Coding Style
+------------
+
+Tabwidth is 8.
