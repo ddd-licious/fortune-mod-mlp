@@ -1,11 +1,11 @@
-FORTUNE_FILE	= mlp
+FORTUNE_FILES	= mlp.dat devquotes.dat
 
-all: $(FORTUNE_FILE).dat
+all: $(FORTUNE_FILES)
 
-$(FORTUNE_FILE).dat: $(FORTUNE_FILE)
+%.dat: %
 	strfile $^
 
 clean:
-	rm $(FORTUNE_FILE).dat
+	rm $(FORTUNE_FILES)
 
 .PHONY: all clean
