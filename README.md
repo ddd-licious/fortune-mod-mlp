@@ -28,5 +28,5 @@ _Number of cookies per Season:_
 
 * Season 1: 34
 * Season 2: 17
-* Season 3: 90
-* Season 4: 63
+* Season 3: 189
+* Season 4: 410
